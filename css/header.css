@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "BreePeru"; /* El nombre que quieras darle a tu fuente */
+  src: url("../font/BreePeru-Bold.ttf");
+}
+
+figure {
+  margin: 0;
+}
+
+.nav-logo {
+  width: 100px;
+  height: 100px;
+}

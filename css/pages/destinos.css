@@ -1,0 +1,155 @@
+.title {
+  font-family: "BreePeru", sans-serif;
+  text-align: center;
+}
+
+.container-title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.container .nav .nav-link {
+  color: black !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container .nav .active {
+  background-color: rgb(255, 32, 32) !important;
+  color: white !important;
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-list li {
+  list-style: none;
+  font-size: 24px;
+  font-family: "BreePeru", sans-serif;
+}
+
+.destinos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.destino {
+  width: min-content;
+  position: relative;
+}
+
+.destino-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  opacity: 80%;
+  transition: 0.5s ease-in-out;
+}
+
+.destino-img:hover {
+  opacity: 100%;
+}
+
+.destino-descripcion {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 10px 10px;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.281);
+}
+
+.destino-nombre {
+  font-family: "BreePeru", sans-serif;
+  color: white;
+}
+
+.destino-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+/* banner */
+.banner-container {
+  align-items: center;
+  background: #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+
+    .banner {
+      width: 100%;
+    }
+  }
+
+  &:hover {
+    .banner {
+      opacity: 0.5;
+
+      &:hover {
+        box-shadow: 0px 0px 10px 6px black;
+        flex: 5 1;
+        font-size: 20pt;
+        opacity: 1;
+
+        .banner-name {
+          flex: 0 0 60px;
+        }
+      }
+    }
+  }
+
+  .banner {
+    background: none 50%;
+    background-size: cover;
+    box-shadow: 0 0 0 0 black;
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    font-size: 10pt;
+    height: 100%;
+    justify-content: flex-end;
+    transition: 0.3s;
+
+    .banner-name {
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      display: flex;
+      flex: 1 1;
+      justify-content: center;
+      width: 100%;
+      transition: 0.3s;
+    }
+  }
+
+  #playas-banner {
+    background-image: url(https://adventuretravelperu.com/es/storagewp/2015/09/costa_verde_miraflores.png);
+  }
+
+  #desiertos-banner {
+    background-image: url(https://media.istockphoto.com/id/547521820/es/foto/oasis-huachina-village-en-per%C3%BA.jpg?s=612x612&w=0&k=20&c=hZ6HiHcxUuDsz_5tlukBhDBNYphZuttlYAPjfTVni_s=);
+  }
+
+  #montanas-banner {
+    background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/1021E/production/_101687066_montaa1.jpg);
+  }
+
+  #selvas-banner {
+    background-image: url(https://lh3.googleusercontent.com/-ZB0-nlCNs84/VUJI9tPkWgI/AAAAAAAABn4/z-hgFvlJRQA/s640/amazonas.jpg);
+  }
+
+  #valles-banner {
+    background-image: url(https://andeangreattreks.com/wp-content/uploads/valle-sagrado-peru-.jpg);
+  }
+}

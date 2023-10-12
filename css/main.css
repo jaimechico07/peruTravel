@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "BreePeru"; /* El nombre que quieras darle a tu fuente */
+  src: url("../font/BreePeru-Bold.ttf");
+}
+
+.title {
+  font-family: "BreePeru", sans-serif;
+  background-color: rgb(255, 32, 32);
+}
+
+/* card */
+
+.card-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 25rem), 1fr));
+}
+
+.card {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+
+.image-container {
+  transition: transform 0.6s;
+}
+
+.image-container:hover {
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-family: "BreePeru", sans-serif;
+  margin: 0;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-body p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.btn-card {
+  background-color: black;
+  padding: 4px;
+  border-radius: 24px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-card:hover {
+  background-color: rgb(255, 32, 32);
+  transform: translateY(-10px);
+}
+
+/*section article */
+
+.article-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 70px 30px;
+  max-width: 900px;
+}
+.subtitle {
+  font-size: 42px;
+  font-family: "BreePeru", sans-serif;
+}
+
+.btn-article {
+  text-decoration: none;
+  padding: 5px 30px;
+  background-color: rgb(255, 32, 32);
+  color: white;
+  text-align: start;
+  width: fit-content;
+  border: 1px solid rgb(255, 32, 32);
+  border-radius: 24px;
+  transition: 0.25s ease-in-out;
+}
+
+.btn-article:hover {
+  border: 1px solid rgb(255, 32, 32);
+  color: rgb(255, 32, 32);
+  background-color: transparent;
+}
+
+.btn-turismo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.btn-turismo a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  background-color: rgb(255, 32, 32);
+  padding: 5px 20px;
+  border-radius: 24px;
+  border: 1px solid rgb(255, 32, 32);
+  transition: 0.25s ease-in-out;
+}
+
+.btn-turismo a:hover {
+  border: 1px solid rgb(255, 32, 32);
+  color: rgb(255, 32, 32);
+  background-color: transparent;
+}
+
+/* gallery */
+
+.gallery {
+  font-family: "BreePeru", sans-serif;
+  background-color: rgb(255, 32, 32);
+}
+
+.gallery-img {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.gallery-img img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Estilo para el fondo oscuro en pantalla completa */
+#imagen-en-pantalla {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+}
+
+#imagen-ampliada {
+  max-width: 70%;
+  max-height: 70%;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+/* lista */
+
+.content-list {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* Dos columnas y ajuste automático */
+  gap: 20px; /* Espacio entre elementos */
+  margin-bottom: 30px;
+}
+
+.list-group-item {
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.list-group-item:hover {
+  background-color: #c9c9c9;
+}
+
+.list-group-item a {
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}

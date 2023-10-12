@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travel Peru</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://www.peru.travel/img/iconos/logo_encudre_rojo.svg"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <!-- <header id="inicio">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <figure>
+            <a href="#">
+              <img
+                class="nav-logo"
+                src="https://www.peru.travel/img/iconos/logo_encudre_rojo.svg"
+                alt="logo"
+              />
+            </a>
+          </figure>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="https://www.peru.travel/en/about-peru"
+                  target="_blank"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="https://www.peru.travel/en/search-travel-services"
+                  target="_blank"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="https://www.peru.travel/en/contact"
+                  target="_blank"
+                  >Contactanos</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header> -->
+    <div id="headerContainer"></div>
+    <!-- main -->
+    <main>
+      <!-- hero -->
+      <section class="hero">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="https://transformers.peru.travel/en/" target="_blank">
+                <img
+                  src="https://www.peru.travel/contenido/home/imagen/en/12/1.9/banner/transformers-plataformas-digitales_desk_en.jpg"
+                  class="d-block w-100"
+                  alt="..."
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.peru.travel/en/news/peru-wins-in-4-categories-of-the-world-travel-awards-2023"
+                target="_blank"
+              >
+                <img
+                  src="https://www.peru.travel/Contenido/Home/Imagen/en/12/1.9/Banner/wta-desktop-ingles.jpg"
+                  class="d-block w-100"
+                  alt="..."
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.peru.travel/en/masperu/5-peruvian-destinations-to-vacation-with-children"
+                target="_blank"
+              >
+                <img
+                  src="https://www.peru.travel/Contenido/Home/Imagen/en/12/1.9/Banner/Destino-busqueda-se-llama-Peru_DESK_EN.jpg"
+                  class="d-block w-100"
+                  alt="..."
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a
+                href="https://www.peru.travel/en/masperu/peruvian-gastronomy-tradition-fusion-and-local-flavors"
+                target="_blank"
+              >
+                <img
+                  src="https://www.peru.travel/Contenido/Home/Imagen/en/12/1.9/Banner/Gastronomia-peruana_DESK_EN.jpg"
+                  class="d-block w-100"
+                  alt="..."
+              /></a>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="title mb-4 p-4">
+          <h1 class="text-center text-white">
+            ¡Estos son los destinos más buscados!
+          </h1>
+        </div>
+      </section>
+
+      <!-- content-->
+      <section class="container section-card">
+        <div class="card-content gap-4">
+          <div class="card p-0">
+            <div class="image-container">
+              <img
+                src="https://www.peru.travel/Contenido/Destino/Imagen/en/17/1.1/Principal/Cusco.home.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Cuzco</h2>
+              <p class="card-text card-description">
+                Imperio vivo. Cusco, reconocida como la capital histórica de
+                Perú, reconocido como el ombligo de la Tierra.
+              </p>
+              <a
+                href="https://www.peru.travel/en/destinations/cusco"
+                target="_blank"
+                class="btn-card text-white"
+                >Mas información</a
+              >
+            </div>
+          </div>
+          <div class="card p-0">
+            <div class="image-container">
+              <img
+                src="https://www.peru.travel/Contenido/Destino/Imagen/en/16/1.1/Principal/Plaza de Armas Arequipa.home.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Arequipa</h2>
+              <p class="card-text card-description">
+                Arequipa, la legendaria Ciudad Blanca, donde su noble historia
+                puede sentirse en el aire, bajo la eterna mirada atenta de sus
+                volcanes.
+              </p>
+              <a
+                href="https://www.peru.travel/en/destinations/arequipa"
+                target="_blank"
+                class="btn-card text-white"
+                >Mas información</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="btn-turismo">
+          <a href="pages/destinos.html">Ver Más</a>
+        </div>
+      </section>
+
+      <!-- article -->
+      <section class="container">
+        <article class="article-info">
+          <h2 class="subtitle">Perú por el mundo</h2>
+          <p>
+            Sorpréndete con la diversidad de nuestro patrimonio natural,
+            cultural e histórico. riqueza. El Perú fue cuna de antiguas
+            civilizaciones que comenzaron desarrollarse hace más de diez mil
+            años, en las frías aguas de su territorio llanuras altiplánicas.
+          </p>
+          <button class="btn-article" onclick="mostrarDirecciones();">
+            SOBRE PERÚ
+          </button>
+        </article>
+        <div class="content-list">
+          <div id="lista-direcciones"></div>
+          <div id="contenido-texto"></div>
+        </div>
+      </section>
+
+      <!-- gallery -->
+      <section class="mb-4">
+        <div>
+          <h2 class="text-white text-center gallery mb-4 p-4">Galería</h2>
+        </div>
+        <div class="container">
+          <div class="gallery-img">
+            <img
+              src="https://www.peru.travel/Contenido/Experiencia/Imagen/en/869/1.1/Activities northern beaches.jpg"
+              onclick="mostrarImagen(this)"
+              alt=""
+            />
+            <img
+              src="https://www.peru.travel/Contenido/Experiencia/Imagen/en/70/1.1/Activities in the Colca.jpg"
+              onclick="mostrarImagen(this)"
+              alt=""
+            />
+            <img
+              src="https://www.peru.travel/Contenido/Experiencia/Imagen/en/1185/1.1/antamani_inlges.jpg"
+              onclick="mostrarImagen(this)"
+              alt=""
+            />
+            <img
+              src="https://www.peru.travel/Contenido/Experiencia/Imagen/en/1209/1.1/andeanlodges_ingles2.jpg"
+              onclick="mostrarImagen(this)"
+              alt=""
+            />
+            <img
+              src="https://www.peru.travel/Contenido/Experiencia/Imagen/en/225/1.1/Archaeological sites in Chiclayo and surroundings.jpg"
+              onclick="mostrarImagen(this)"
+              alt=""
+            />
+            <img
+              src="https://www.peru.travel/Contenido/Experiencia/Imagen/en/237/1.1/Archaeological tour La Libertad.jpg"
+              onclick="mostrarImagen(this)"
+              alt=""
+            />
+            <img
+              src="https://www.peru.travel/Contenido/Experiencia/Imagen/en/1206/1.1/ccotos_ingles.jpg"
+              onclick="mostrarImagen(this)"
+              alt=""
+            />
+            <img
+              src="https://www.peru.travel/Contenido/Experiencia/Imagen/en/100/1.1/City Tour Cusco.jpg"
+              onclick="mostrarImagen(this)"
+              alt=""
+            />
+          </div>
+        </div>
+        <div id="imagen-en-pantalla" class="hidden">
+          <img id="imagen-ampliada" src="" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-3 p-4">
+            <a href="#inicio">
+              <img
+                class="nav-logo"
+                src="https://www.peru.travel/img/iconos/logo_encudre_rojo.svg"
+                alt=""
+              />
+            </a>
+            <ul>
+              <li>
+                Comisión de Promoción del Perú para la Exportación y el Turismo
+                PROMPERÚ
+              </li>
+              <li>Calle 1 Oeste N° 050 San Isidro, Lima - Perú</li>
+              <li><a href="tel:(511) 616 7300">(511) 616 7300</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 p-4">
+            <h3>Enlaces</h3>
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li>
+                <a href="https://www.peru.travel/en/about-peru" target="_blank"
+                  >Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.peru.travel/en/search-travel-services"
+                  target="_blank"
+                  >Servicios</a
+                >
+              </li>
+              <li>
+                <a href="https://www.peru.travel/en/contact" target="_blank"
+                  >Contactanos</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 p-4">
+            <h3>Servicios en linea</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://www.peru.travel/en/be-our-partner"
+                  target="_blank"
+                  >Be Our Partner</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.peru.travel/en/search-travel-services"
+                  target="_blank"
+                  >Tourism Services</a
+                >
+              </li>
+              <li>
+                <a href="https://www.gob.pe/promperu" target="_blank"
+                  >PROMPERU</a
+                >
+              </li>
+              <li>
+                <a href="https://www.gob.pe/migraciones" target="_blank"
+                  >Immigration Office</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3 p-4">
+            <h3>Nuestras redes</h3>
+            <ul>
+              <li>
+                <a href="https://www.instagram.com/peru/" target="_blank"
+                  ><img src="img/redes/instagram.png" alt="" />Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/i/flow/login?redirect_after_login=%2FVisitperu"
+                  target="_blank"
+                  ><img src="img/redes/twitter.png" alt="" />Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/ytuqueplanes/?brand_redir=157673064274811"
+                  target="_blank"
+                >
+                  <img src="img/redes/facebook.png" alt="" />Facebook</a
+                >
+              </li>
+              <li>
+                <a href="https://www.youtube.com/visitperu" target="_blank"
+                  ><img src="img/redes/youtube.png" alt="" />YouTube</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+    <script src="components/header.js"></script>
+  </body>
+</html>

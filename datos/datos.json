@@ -1,0 +1,87 @@
+[
+    {
+        "id" : "01",
+        "nombre" : "Ica",
+        "descripción":"Un desierto lleno de experiencia",
+        "img":"Ica.jpg"
+    },
+    {
+        "id" : "02",
+        "nombre" : "Lambayeque",
+        "descripción":"Una región delimitada por el océano",
+        "img":"Lambayeque.jpg"
+    },
+    {
+        "id" : "03",
+        "nombre" : "Lima",
+        "descripción":"Donde la tradición es tendencia hoy",
+        "img":"Lima.jpg"
+    },
+    {
+        "id" : "04",
+        "nombre" : "Piura",
+        "descripción":"Donde el verano nunca termina",
+        "img":"Piura.jpg"
+    },
+    {
+        "id" : "05",
+        "nombre" : "Tumbes",
+        "descripción":"Entre manglares y ballenas",
+        "img":"Tumbes.jpg"
+    },
+    {
+        "id" : "06",
+        "nombre" : "Amazonas",
+        "descripción":"Donde las ciudades se esconden en la niebla",
+        "img":"Amazonas.jpg"
+    },
+    {
+        "id" : "07",
+        "nombre" : "Ancash",
+        "descripción":"Una región dominada por dos cadenas montañosas",
+        "img":"Ancash.jpg"
+    },
+    {
+        "id" : "08",
+        "nombre" : "Arequipa",
+        "descripción":"Fascinante tierra volcánica",
+        "img":"Arequipa.jpg"
+    },
+    {
+        "id" : "09",
+        "nombre" : "Cusco",
+        "descripción":"Imperio viviente",
+        "img":"Cusco.jpg"
+    },
+    {
+        "id" : "10",
+        "nombre" : "Puno",
+        "descripción":"Donde nació el imperio inca",
+        "img":"Puno.jpg"
+    },
+    {
+        "id" : "11",
+        "nombre" : "Loreto",
+        "descripción":"Hogar del río Amazonas",
+        "img":"Loreto.jpg"
+    },
+    {
+        "id" : "12",
+        "nombre" : "Madre de Dios",
+        "descripción":"Donde rodearse de biodiversidad",
+        "img":"Madrededios.jpg"
+    },
+    {
+        "id" : "13",
+        "nombre" : "San Martin",
+        "descripción":"Donde confluyen cascadas y lagos",
+        "img":"Sanmartin.jpg"
+    },
+    {
+        "id" : "14",
+        "nombre" : "La libertad",
+        "descripción":"  Una región delimitada por el océano",
+        "img":"LaLibertad.jpg"
+    }
+
+]

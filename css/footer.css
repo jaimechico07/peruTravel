@@ -1,0 +1,43 @@
+footer {
+  background-color: black;
+
+  text-align: center;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin-right: 6px;
+  margin-bottom: 5px;
+}
+
+footer h3 {
+  color: white;
+  font-family: "BreePeru", sans-serif;
+  margin-bottom: 15px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: rgba(255, 255, 255, 0.808);
+}
+
+footer li {
+  color: white;
+}
+
+@media screen and (min-width: 1200px) {
+  /* Estilos para centrar el texto */
+  footer {
+    text-align: justify;
+  }
+}
